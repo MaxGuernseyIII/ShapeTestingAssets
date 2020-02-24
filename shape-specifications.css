@@ -1,0 +1,37 @@
+.zone
+{
+    stroke-width: 5;
+    stroke: white;
+    stroke-dasharray: 30 5;
+    fill:none;
+}
+
+.inner
+{
+    marker-mid: url(#marker-inner);
+}
+
+.outer
+{
+    marker-mid: url(#marker-outer);
+}
+
+.label
+{
+    fill: orange;
+    fill-opacity: .4;
+    stroke: orange;
+    stroke-width: .5;
+}
+
+.failing-actual
+{
+    stroke-width: 5;
+    stroke: red;
+    fill: none;
+}
+
+.failing-expected
+{
+    stroke: red;
+}
